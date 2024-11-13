@@ -1,6 +1,6 @@
 __pycache__
 
-chatbot/data
+# chatbot/data
 chatbot/__pycache__
 chatbot/data.pth
 

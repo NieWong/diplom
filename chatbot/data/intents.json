@@ -1,0 +1,237 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": [
+          "hello",
+          "hi there",
+          "is anyone there?",
+          "good day",
+          "greetings",
+          "hello, how can i assist you?",
+          "hiya",
+          "hey!",
+          "what's up?"
+        ],
+        "responses": [
+          "Hello :-)",
+          "Hello, thank you for visiting",
+          "Hello, how can I help you?",
+          "Hello, what can I do for you?",
+          "Greetings! How can I assist you?",
+          "Hi! Glad you’re here. How may I assist?"
+        ]
+      },
+      {
+        "tag": "farewell",
+        "patterns": [
+          "goodbye",
+          "see you later",
+          "bye",
+          "take care",
+          "good luck",
+          "catch you later",
+          "i'm off"
+        ],
+        "responses": [
+          "See you next time, thanks for visiting",
+          "Have a great day",
+          "Goodbye! Come back soon.",
+          "Take care! Good luck.",
+          "Goodbye! If you have questions, feel free to ask."
+        ]
+      },
+      {
+        "tag": "appreciate",
+        "patterns": [
+          "thank you",
+          "thanks a lot",
+          "that was very helpful",
+          "much appreciated!",
+          "i am grateful",
+          "thanks!",
+          "you're the best!"
+        ],
+        "responses": [
+          "Glad I could help!",
+          "Anytime!",
+          "Happy to assist",
+          "You're welcome!",
+          "If you have more questions, feel free to ask!"
+        ]
+      },
+      {
+        "tag": "joke",
+        "patterns": [
+          "tell me a joke!",
+          "make me laugh!",
+          "do you know any jokes?",
+          "tell me something funny",
+          "cheer me up!"
+        ],
+        "responses": [
+          "Why did the hipster burn his mouth? He drank his coffee before it was cool.",
+          "What did the buffalo say to his son when he left for college? Bison.",
+          "Here’s one: Why don’t scientists trust atoms? Because they make up everything!",
+          "Ready for a laugh? Why don’t skeletons fight each other? Because they don’t have the guts!"
+        ]
+      },
+      {
+        "tag": "weather",
+        "patterns": [
+          "what's the weather like?",
+          "how's the weather?",
+          "is it sunny today?",
+          "will it rain?",
+          "weather forecast"
+        ],
+        "responses": [
+          "Let me check the weather for you.",
+          "I'll get the current weather details for you.",
+          "One moment, checking the forecast.",
+          "It’s looking nice out there!",
+          "Looks like it might rain, take an umbrella!"
+        ]
+      },
+      {
+        "tag": "time",
+        "patterns": [
+          "what time is it?",
+          "current time",
+          "can you tell me the time?",
+          "time check",
+          "what's the time now?"
+        ],
+        "responses": [
+          "The current time is {current_time}.",
+          "It's {current_time} now.",
+          "Let me check my watch. It's {current_time}."
+        ]
+      },
+      {
+        "tag": "date",
+        "patterns": [
+          "what's the date today?",
+          "today's date",
+          "can you tell me the date?",
+          "what's today's date?"
+        ],
+        "responses": [
+          "Today’s date is {current_date}.",
+          "It's {current_date} today.",
+          "The date today is {current_date}."
+        ]
+      },
+      {
+        "tag": "news",
+        "patterns": [
+          "what's the latest news?",
+          "tell me the news",
+          "any news updates?",
+          "current news",
+          "what's happening in the world?"
+        ],
+        "responses": [
+          "Here are the latest news headlines.",
+          "Let me fetch the latest news for you.",
+          "Here's what's happening today.",
+          "Checking the latest news now..."
+        ]
+      },
+      {
+        "tag": "reminder",
+        "patterns": [
+          "set a reminder",
+          "remind me to do something",
+          "can you remind me later?",
+          "i need a reminder",
+          "don't let me forget"
+        ],
+        "responses": [
+          "What would you like me to remind you about?",
+          "Sure, let me know the details of the reminder.",
+          "Got it! Just tell me what and when to remind you."
+        ]
+      },
+      {
+        "tag": "whatIs",
+        "patterns": [
+          "What is",
+          "Tell me about",
+          "Explain",
+          "Can you give me information on",
+          "I want to know about",
+          "Can you explain {topic}?",
+          "Tell me about {topic}",
+          "Do you know about {topic}?",
+          "Give me information on {topic}"
+        ],
+        "responses": [
+          "Here’s some information about {topic}: {result}",
+          "Let me check for you about {topic}. Here’s what I found: {result}",
+          "I found some information on {topic}. {result}"
+        ]
+      },
+      {
+        "tag": "alarm",
+        "patterns": [
+          "set an alarm",
+          "wake me up at a specific time",
+          "can you set an alarm for me?",
+          "i need an alarm for tomorrow"
+        ],
+        "responses": [
+          "What time would you like me to set the alarm for?",
+          "Sure, what time should I set it for?",
+          "Got it, setting the alarm for the time you specify."
+        ]
+      },
+      {
+        "tag": "calculator",
+        "patterns": [
+          "what's the result of",
+          "calculate",
+          "can you do some math?",
+          "solve this problem",
+          "what's the answer to"
+        ],
+        "responses": [
+          "The answer is {result}.",
+          "Here's what I got: {result}.",
+          "Let me do the math... It’s {result}."
+        ]
+      },
+      {
+        "tag": "personal_info",
+        "patterns": [
+          "who are you?",
+          "what are you?",
+          "tell me about yourself",
+          "are you a human?",
+          "what's your name?"
+        ],
+        "responses": [
+          "I'm your personal assistant here to help you with various tasks.",
+          "I'm an AI-powered assistant designed to make life easier for you.",
+          "You can think of me as your helpful digital companion!"
+        ]
+      },
+      {
+        "tag": "small_talk",
+        "patterns": [
+          "how are you?",
+          "what's up?",
+          "how's it going?",
+          "how do you feel?",
+          "are you okay?"
+        ],
+        "responses": [
+          "I'm here and ready to assist!",
+          "Feeling fantastic! How can I help you today?",
+          "I'm just a program, but thanks for asking!",
+          "I'm good, how about you?"
+        ]
+      }
+    ]
+  }
+  
