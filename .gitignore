@@ -1,0 +1,10 @@
+__pycache__
+
+chatbot/data
+chatbot/__pycache__
+chatbot/data.pth
+
+command/data
+command/saved_model.keras
+
+functions/__pycache__
